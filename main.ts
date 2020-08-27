@@ -124,8 +124,8 @@ namespace DateFns {
    * //=> 1100
    */
   export function differenceInMilliseconds(
-    dirtyDateLeft: Date,
-    dirtyDateRight: Date
+    dirtyDateLeft: Date | number,
+    dirtyDateRight: Date | number
   ) {
     requiredArgs(2, arguments)
 
@@ -168,8 +168,8 @@ namespace DateFns {
    * //=> -1
    */
   export function differenceInMinutes(
-    dirtyDateLeft: Date,
-    dirtyDateRight: Date
+    dirtyDateLeft: Date | number,
+    dirtyDateRight: Date | number
   ) {
     requiredArgs(2, arguments)
 
